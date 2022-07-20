@@ -8,28 +8,116 @@
   <title>Portfolio With Bootstrap</title>
 </head>
 <body>
-  <header class="container">
+  <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Amit-Frank-Ralph</a>
-        <div class="navbar-nav pl-5">
-          <ul class="navbar-nav">
+        <div class="navbar-nav ">
+          <ul class="nav gap-4">
             <li><a class="nav-link active" aria-current="page" href="#">About</a></li>
             <li><a class="nav-link" href="#">Portfolio</a></li>
             <li><a class="nav-link" href="#">Contact</a></li>
             <li>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-              </svg>
             </li>
           </ul>            
         </div>
       </div>
     </nav>
   </header>
-
-
-
+  <main>
+    <section>
+      <div>
+        <h1>We Manage multiple complex projects with ease</h1>
+        <h3>"We made it known to all our client that here is the place for their projects to get planned, discussed, and managed. if your project is not design by  Amit-Frank-Ralph, it didn’t count."</h3>
+      </div>
+    </section>
+    <section class="d-flex gap-4 justify-content-center mt-5">
+      <div class="card" style="width: 29rem;">
+        <div class="card-header text-center">
+          FRAMWORK
+        </div>
+        <ul class="list-group list-group-flush align-items-center">
+          <li class="list-group-item">BOOTSTRAP</li>
+          <li class="list-group-item">SASS</li>
+          <li class="list-group-item">NODE.JS</li>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </ul>
+      </div>
+      <div class="card" style="width: 29rem;">
+        <div class="card-header text-center">
+          LANGUAGES
+        </div>
+        <ul class="list-group list-group-flush align-items-center">
+          <li class="list-group-item">HTML</li>
+          <li class="list-group-item">CSS</li>
+          <li class="list-group-item">JAVERS STRIPS</li>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </ul>
+      </div>
+        <div>
+          <h3>Software Development</h3>
+          <p>The development of reliable and scalable software solutions for any OS, browser and device. We bring together deep industry expertise and the latest IT advancements to deliver custom solutions and products that perfectly fit the needs and behavior of their users.
+          </p>
+        </div>
+    </section>
+    <section>
+      <table class="table mt-5"style="width: 520px;">
+        <thead>
+          <tr>
+            <th scope="col">PRODUCTS</th>
+            <th scope="col">CUSTOMERS</th>
+            <th scope="col">SERVICES</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>WEBSITE TIMPLATES</td>
+            <td> ENTERPRISE</td>
+            <td>HELP CENTER</td>
+          </tr>
+          <tr>
+            
+            <td>WEB DESIGN</td>
+            <td>CREATORS</td>
+            <td>FORUM</td>
+          </tr>
+          <tr>
+            <td>Larry the Bird</td>
+            <td>BLOGGERS</td>
+            <td>DEVELOPERS PLATFORM</td>
+          </tr>
+        </tbody>
+      </table>
+      <form class="mt-5" style="width: 320px;">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Name</label>
+          <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+        </div>
+        
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <hr class="mt-5">
+    <div class="d-flex justify-content-center mt-2">
+      <ul class=" nav d-flex gap-3 mb-4">
+        <li><a class="list-group-item bg-info btn-secondary fw-bold" href="#" target="_blank">Discord</a></li>
+        <li><a class="list-group-item bg-info btn-secondary fw-bold" href="#" target="_blank">linkedin</a></li>
+        <li><a class="list-group-item bg-info btn-secondary fw-bold" href="#" target="_blank">Github</a></li>
+        <li><a class="list-group-item bg-info btn-secondary fw-bold" href="#" target="_blank">Twitter</a></li>
+        <li><a class="list-group-item bg-info btn-secondary fw-bold" href="#" target="_blank">Facebook</a></li>
+      </ul>
+    </div>
+  </footer>
   <script src="./js/bootstrap.js"></script>
 </body>
 </html>
